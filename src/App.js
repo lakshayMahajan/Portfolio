@@ -5,11 +5,9 @@ import Land from './Components/Land';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
         <Navbar/>
         <Land/>
-      </header>
     </div>
   );
 }

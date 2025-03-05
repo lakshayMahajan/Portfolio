@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div style={{ backgroundColor: "black", position: "fixed", top: 0, width: "100vw"}}>
+    <div style={{ backgroundColor: "transparent", position: "fixed", top: 0, width: "100vw",zIndex: 1000 }}>
         <div style={{padding: "15px", color:"white",display:"flex",justifyContent: "space-between"}}>
             <div style ={{justifyContent: "left", marginLeft: "2%",}}>
                 <a style={{ textDecoration: "none", fontSize: "4.3rem"}}>LM.</a>
