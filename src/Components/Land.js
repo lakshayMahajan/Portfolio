@@ -20,13 +20,13 @@ function Land() {
             minWidth: 200.00,
             scale: 1.00,
             scaleMobile: 1.00,
-            backgroundColor: 0x0,
+            backgroundColor: 0x060816,
             color1: 0xA259FF,
             color2: 0xffffff,
             colorMode: "lerpGradient",
-            birdSize: 0.50,
+            birdSize: .7,
             separation: 100.00,
-            alignment: 100.00,
+            alignment: 50.00,
             cohesion: 85.00,
             quantity:4
           })
