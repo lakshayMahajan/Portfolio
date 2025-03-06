@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './Components/Navbar';
-import Land from './Components/Land';
-import About from './Components/About';
+import Navbar from './Pages/Navbar';
+import Land from './Pages/Land';
+import About from './Pages/About';
+import Education from './Pages/Education';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar/>
         <Land/>
         <About/>
+        <Education/>
     </div>
   );
 }

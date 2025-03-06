@@ -1,0 +1,83 @@
+.about-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #060816;
+    padding-top: 5vh;
+    gap: 1.6rem;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: row;
+    margin-right: 16rem;
+    margin-left: 16rem;
+    margin-top: 5rem;
+  }
+  
+  .about-image-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 8rem;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  
+  .about-image {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 5px #a259ff;
+    object-fit: cover;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 1.6rem;
+  }
+  
+  .button {
+    margin-top: 1rem;
+    width: 12rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s;
+    height: 3.8rem;
+  }
+  
+  .github-button {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    box-shadow: 0px 4px 10px rgba(138, 43, 226, 0.5);
+  }
+  
+  .linkedin-button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    box-shadow: 0px 4px 10px rgba(162, 89, 255, 0.5);
+  }
+  
+  .resume-button {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    box-shadow: 0px 4px 10px rgba(75, 0, 130, 0.5);
+  }
+  
+  .text-container {
+    display: flex;
+    gap: 4rem;
+    color: white;
+    flex-direction: column;
+    color: rgb(170, 166, 195);
+    margin-left: 0.6rem;
+  }
+  
+  .text-container a {
+    font-size: 1.8rem;
+  }
+  
