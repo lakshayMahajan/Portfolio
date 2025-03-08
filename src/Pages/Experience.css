@@ -1,0 +1,103 @@
+/* Experience.css */
+.experience-container {
+    height: 100vh;
+    width: 100%;
+    background-color: #060816;
+}
+
+.experience-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 3rem;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.experience-menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 35%;
+    align-items: flex-end;
+}
+
+.experience-menu-item {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: background-color 0.3s ease;
+    width: 80%;
+    align-items: center;
+}
+
+.experience-menu-item img {
+    height: 60px;
+    object-fit: contain;
+    margin-right: 3%;
+    border-radius: 100%;
+}
+
+.experience-menu-item-title {
+    font-size: 2rem;
+}
+
+.experience-menu-item-id {
+    color: rgb(170, 166, 195);
+    font-size: 1.5rem;
+}
+
+.experience-details {
+    min-height: 100%;
+    width: 60%;
+    background-color: rgb(29, 24, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 15px;
+    flex-grow: 1;
+    align-self: flex-start;
+    border-radius: 8px;
+}
+
+.experience-title {
+    color: white;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+    margin: 2%;
+}
+
+.experience-id {
+    margin-bottom: 5px;
+    font-size: 2rem;
+    color: rgb(170, 166, 195);
+    margin-left: 2%;
+}
+
+.experience-date {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+.experience-content-text {
+    padding-top: 1.4rem;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.experience-content-text a {
+    display: block;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-right: 4%;
+}

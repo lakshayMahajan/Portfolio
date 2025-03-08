@@ -4,6 +4,7 @@ import Navbar from './Pages/Navbar';
 import Land from './Pages/Land';
 import About from './Pages/About';
 import Education from './Pages/Education';
+import Experience from './Pages/Experience';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Land/>
         <About/>
         <Education/>
+        <Experience/>
     </div>
   );
 }
