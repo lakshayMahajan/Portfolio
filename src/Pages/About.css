@@ -1,84 +1,137 @@
 .about-container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: #060816;
-    padding-top: 5vh;
-    gap: 1.6rem;
-    margin-bottom: 10%;
-  }
-  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #060816;
+  padding-top: 5vh;
+  gap: 1.6rem;
+  margin-bottom: 10%;
+}
+
+/* Default layout: side-by-side for larger screens */
+.about-content {
+  display: flex;
+  flex-direction: row;
+  margin-right: 16rem;
+  margin-left: 16rem;
+  margin-top: 5rem;
+}
+
+.about-image-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 8rem;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.about-image {
+  height: 30vh;
+  width: 30vh;
+  border-radius: 50%;
+  box-shadow: 0px 0px 15px 5px #a259ff;
+  object-fit: cover;
+}
+
+.button-container {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.button {
+  margin-top: 1rem;
+  width: 12rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  height: 3.8rem;
+}
+
+.github-button {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  box-shadow: 0px 4px 10px rgba(138, 43, 226, 0.5);
+}
+
+.linkedin-button {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  box-shadow: 0px 4px 10px rgba(162, 89, 255, 0.5);
+}
+
+.resume-button {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  box-shadow: 0px 4px 10px rgba(75, 0, 130, 0.5);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: rgb(170, 166, 195);
+  margin-left: 0.6rem;
+  text-align: left; /* Ensure text is left-aligned by default */
+}
+
+.text-container a {
+  font-size: 1.8rem;
+  text-align: left; /* Double ensure left alignment */
+  line-height: 1.4;
+}
+
+/* -------------------------------------
+   Media Queries for Responsiveness
+-------------------------------------- */
+@media (max-width: 1024px) {
   .about-content {
-    display: flex;
-    flex-direction: row;
-    margin-right: 16rem;
-    margin-left: 16rem;
-    margin-top: 5rem;
-  }
-  
-  .about-image-container {
-    display: flex;
     flex-direction: column;
-    margin-right: 8rem;
+    margin: 2rem;
     align-items: center;
-    gap: 1.6rem;
+    
   }
-  
-  .about-image {
-    height: 30vh;
-    width: 30vh;
-    border-radius: 50%;
-    box-shadow: 0px 0px 15px 5px #a259ff;
-    object-fit: cover;
+
+  .about-image-container {
+    margin-right: 0;
+    margin-bottom: 2rem;
   }
-  
-  .button-container {
-    display: flex;
-    gap: 1.6rem;
-  }
-  
-  .button {
-    margin-top: 1rem;
-    width: 12rem;
-    padding: 1rem;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    color: white;
-    transition: 0.3s;
-    height: 3.8rem;
-  }
-  
-  .github-button {
-    background: linear-gradient(to right, #00c6ff, #0072ff);
-    box-shadow: 0px 4px 10px rgba(138, 43, 226, 0.5);
-  }
-  
-  .linkedin-button {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    box-shadow: 0px 4px 10px rgba(162, 89, 255, 0.5);
-  }
-  
-  .resume-button {
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
-    box-shadow: 0px 4px 10px rgba(75, 0, 130, 0.5);
-  }
-  
+
   .text-container {
-    display: flex;
-    gap: 4rem;
-    color: white;
-    flex-direction: column;
-    color: rgb(170, 166, 195);
-    margin-left: 0.6rem;
+    margin-left: 0;
+    /* Remove any forced text-align: center */
+    text-align: left;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .about-image {
+    height: 25vh;
+    width: 25vh;
+  }
+
+  .button {
+    width: 10rem;
+    height: 3.2rem;
+    font-size: 1rem;
+  }
+
   .text-container a {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
-  
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    height: 20vh;
+    width: 20vh;
+  }
+
+  .text-container a {
+    font-size: 1rem;
+  }
+}

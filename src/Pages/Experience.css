@@ -1,11 +1,13 @@
-/* Experience.css */
 .experience-container {
-    height: 100vh;
     width: 100%;
+    /* You can switch from fixed 100vh to auto if needed for scrolling:
+       height: auto;
+    */
+    height: 100vh;
     background-color: #060816;
-}
-
-.experience-content {
+  }
+  
+  .experience-content {
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -14,18 +16,18 @@
     gap: 3rem;
     margin-right: 10%;
     margin-left: 10%;
-}
-
-.experience-menu {
+  }
+  
+  .experience-menu {
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 2rem;
     width: 35%;
     align-items: flex-end;
-}
-
-.experience-menu-item {
+  }
+  
+  .experience-menu-item {
     color: white;
     display: flex;
     flex-direction: row;
@@ -36,25 +38,25 @@
     transition: background-color 0.3s ease;
     width: 80%;
     align-items: center;
-}
-
-.experience-menu-item img {
+  }
+  
+  .experience-menu-item img {
     height: 60px;
     object-fit: contain;
     margin-right: 3%;
     border-radius: 100%;
-}
-
-.experience-menu-item-title {
+  }
+  
+  .experience-menu-item-title {
     font-size: 2rem;
-}
-
-.experience-menu-item-id {
+  }
+  
+  .experience-menu-item-id {
     color: rgb(170, 166, 195);
     font-size: 1.5rem;
-}
-
-.experience-details {
+  }
+  
+  .experience-details {
     min-height: 100%;
     width: 60%;
     background-color: rgb(29, 24, 54);
@@ -66,38 +68,135 @@
     flex-grow: 1;
     align-self: flex-start;
     border-radius: 8px;
-}
-
-.experience-title {
+  }
+  
+  .experience-title {
     color: white;
     margin-bottom: 5px;
     font-size: 2.5rem;
     margin: 2%;
-}
-
-.experience-id {
+  }
+  
+  .experience-id {
     margin-bottom: 5px;
     font-size: 2rem;
     color: rgb(170, 166, 195);
     margin-left: 2%;
-}
-
-.experience-date {
+  }
+  
+  .experience-date {
     color: white;
     font-size: 1.5rem;
     margin-left: 2%;
     margin-top: 2%;
-}
-
-.experience-content-text {
+  }
+  
+  .experience-content-text {
     padding-top: 1.4rem;
     color: white;
     font-size: 1.7rem;
-}
-
-.experience-content-text a {
+  }
+  
+  .experience-content-text a {
     display: block;
     margin-left: 2%;
     margin-bottom: 2%;
     margin-right: 4%;
-}
+  }
+  
+  /* ---------------------------
+     RESPONSIVENESS
+  ---------------------------- */
+  
+  /* 1) Tablet screens and below (~max-width: 1024px) */
+  @media (max-width: 1024px) {
+    .experience-content {
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem;
+    }
+  
+    .experience-menu {
+      width: 100%;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+  
+    .experience-menu-item {
+      width: 90%;
+      justify-content: center; /* center horizontally if you like */
+    }
+  
+    .experience-details {
+      width: 100%;
+    }
+  }
+  
+  /* 2) Mobile screens and below (~max-width: 768px) */
+  @media (max-width: 768px) {
+    .experience-menu-item-title {
+      font-size: 1.6rem;
+    }
+  
+    .experience-menu-item-id {
+      font-size: 1.2rem;
+    }
+  
+    .experience-title {
+      font-size: 2rem;
+    }
+  
+    .experience-id {
+      font-size: 1.4rem;
+    }
+  
+    .experience-date {
+      font-size: 1.2rem;
+    }
+  
+    .experience-content-text {
+      font-size: 1.4rem;
+    }
+  
+    .experience-content-text a {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center; /* or left, if preferred */
+    }
+  }
+  
+  /* 3) Very small screens (~max-width: 480px) */
+  @media (max-width: 480px) {
+    .experience-menu-item {
+      padding: 1rem;
+    }
+  
+    .experience-menu-item img {
+      height: 50px;
+    }
+  
+    .experience-menu-item-title {
+      font-size: 1.4rem;
+    }
+  
+    .experience-menu-item-id {
+      font-size: 1rem;
+    }
+  
+    .experience-title {
+      font-size: 1.8rem;
+    }
+  
+    .experience-id {
+      font-size: 1.2rem;
+    }
+  
+    .experience-date {
+      font-size: 1rem;
+    }
+  
+    .experience-content-text {
+      font-size: 1.2rem;
+    }
+  }
+  

@@ -18,7 +18,7 @@ function Experience() {
                             style={{ backgroundColor: selectedItem.id === item.id ? "rgb(29, 24, 54)" : "transparent" }}
                             onClick={() => setSelectedItem(item)}
                         >
-                            <img src={item.img} />
+                            <img src={item.img} alt="Company / Experience" />
                             <div style={{ display: "flex", flexDirection: "column" }}>
                                 <a className="experience-menu-item-title">{item.title}</a>
                                 <a className="experience-menu-item-id">{item.id}</a>

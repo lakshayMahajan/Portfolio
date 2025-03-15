@@ -5,7 +5,7 @@ import projectsData from './Data/projectsData.json'
 
 export default function Projects() {
   return (
-    <div style={{ width: '100%' }}>
+    <div style={{ width: '100%', paddingTop:"10px" }}>
   <PageHeader title="Innovative Creation" subtitle="Projects" />
 
   <div
