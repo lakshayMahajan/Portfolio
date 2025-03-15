@@ -5,6 +5,7 @@ import Land from './Pages/Land';
 import About from './Pages/About';
 import Education from './Pages/Education';
 import Experience from './Pages/Experience';
+import Projects from './Pages/Projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About/>
         <Education/>
         <Experience/>
+        <Projects/>
     </div>
   );
 }

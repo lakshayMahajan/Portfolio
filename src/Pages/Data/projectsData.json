@@ -1,0 +1,24 @@
+[
+    {
+      "title": "Project One",
+      "content": "Comprehensive personal finance management application built with Next.js and Typescript. It empowers users to take control of their financial health through intuitive tracking, insightful analytics, and personalized recommendations.",
+      "imageUrl": "https://github.com/sunnypatell/FinancialFlow/raw/main/ss1.png",
+      "githubLink": "https://github.com/yourusername/project-one",
+      "hashtags": ["#Next.js", "#TypeScript"]
+    },
+    {
+      "title": "Project Two",
+      "content": "Some details...",
+      "imageUrl": "https://example.com/image2.jpg",
+      "githubLink": "https://github.com/yourusername/project-two",
+      "hashtags": ["#React", "#NodeJS"]
+    },
+    {
+      "title": "Project Three",
+      "content": "Some details...",
+      "imageUrl": "https://example.com/image3.jpg",
+      "githubLink": "https://github.com/yourusername/project-three",
+      "hashtags": ["#MongoDB", "#Express"]
+    }
+  ]
+  
