@@ -3,7 +3,8 @@
     /* You can switch from fixed 100vh to auto if needed for scrolling:
        height: auto;
     */
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: #060816;
   }
   

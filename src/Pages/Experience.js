@@ -35,7 +35,7 @@ function Experience() {
                         {selectedItem.content.split("\n").map((line, index) => (
                             <a key={index}>{line}</a>
                         ))}
-                    </div>
+                    </div>  
                 </div>
             </div>
         </div>
