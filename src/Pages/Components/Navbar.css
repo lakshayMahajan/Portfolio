@@ -1,0 +1,55 @@
+/* Navbar container */
+.navbar {
+    background-color: #060816;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Logo */
+  .navbar-logo {
+    text-decoration: none;
+    font-size: 4.3rem;
+    color: white;
+    margin-left: 2%;
+    font-weight: bold;
+  }
+  
+  /* Navbar links */
+  .navbar-links {
+    display: flex;
+    gap: 12%;
+    padding-left: 8%;
+    padding-right: 4%;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 2.4rem;
+  }
+  
+  /* Navbar links styling */
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 750px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .navbar {
+      justify-content: center; /* Centers logo */
+    }
+  
+    .navbar-logo {
+      margin-left: 0; /* Removes left margin */
+    }
+  }
+  

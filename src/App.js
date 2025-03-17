@@ -1,6 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import Navbar from './Pages/Navbar';
+import Navbar from './Pages/Components/Navbar';
 import Land from './Pages/Land';
 import About from './Pages/About';
 import Education from './Pages/Education';
@@ -9,13 +9,13 @@ import Projects from './Pages/Projects';
 
 function App() {
   return (
-    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
-        <Navbar/>
-        <Land/>
-        <About/>
-        <Education/>
-        <Experience/>
-        <Projects/>
+    <div style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}>
+      <Navbar />
+      <div id="land"><Land /></div>
+      <div id="about"><About /></div>
+      <div id="education"><Education /></div>
+      <div id="experience"><Experience /></div>
+      <div id="projects"><Projects /></div>
     </div>
   );
 }

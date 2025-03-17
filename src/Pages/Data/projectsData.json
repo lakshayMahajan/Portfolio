@@ -1,24 +1,44 @@
 [
-    {
-      "title": "Project One",
-      "content": "Comprehensive personal finance management application built with Next.js and Typescript. It empowers users to take control of their financial health through intuitive tracking, insightful analytics, and personalized recommendations.",
-      "imageUrl": "https://github.com/sunnypatell/FinancialFlow/raw/main/ss1.png",
-      "githubLink": "https://github.com/yourusername/project-one",
-      "hashtags": ["#Next.js", "#TypeScript"]
-    },
-    {
-      "title": "Project Two",
-      "content": "Some details...",
-      "imageUrl": "https://example.com/image2.jpg",
-      "githubLink": "https://github.com/yourusername/project-two",
-      "hashtags": ["#React", "#NodeJS"]
-    },
-    {
-      "title": "Project Three",
-      "content": "Some details...",
-      "imageUrl": "https://example.com/image3.jpg",
-      "githubLink": "https://github.com/yourusername/project-three",
-      "hashtags": ["#MongoDB", "#Express"]
-    }
-  ]
-  
+  {
+      "title": "Music Data Analysis",
+      "content": "This project merges and analyzes datasets on top songs, Spotify streams, and AOTY ratings to explore music trends. It examines sales, streams, downloads, and ratings to uncover insights about artist impact and platform influence. Includes data cleaning, merging strategies, and visualizations to highlight key findings on global music trends.",
+      "imageUrl": "https://media.licdn.com/dms/image/v2/C4E12AQE3zUIEkyLkEQ/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1613131970203?e=2147483647&v=beta&t=jFtmAjeist2kn25-6fxPMPRbcG1U8DhGYjcVeL2z3iU",
+      "githubLink": "https://github.com/lakshayMahajan/MusicDataAnalysis",
+      "hashtags": ["#DataAnalysis", "#Spotify", "#MusicTrends"]
+  },
+  {
+      "title": "HSE Schedule Client",
+      "content": "Live scheduling application built for HSE High School. Features include real-time calendar management and clock updates, improving accessibility and usability for students and staff.",
+      "imageUrl": "https://www.hseapps.org/static/media/courses.b1798db1.png",
+      "githubLink": "https://github.com/lakshayMahajan/schedule-client",
+      "hashtags": ["#React", "#JavaScript", "#Scheduling"]
+  },
+  {
+      "title": "HSE Admin App",
+      "content": "A comprehensive web application designed for school administrators to manage schedules, events, announcements, and courses. Built with Next.js, it streamlines administration processes and enhances efficiency.",
+      "imageUrl": "https://media-hosting.imagekit.io//b8359903a9dc473a/Screenshot%202025-03-16%20at%2011.33.01%E2%80%AFPM.png?Expires=1836790394&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=EWD1V7u69I733nLQt3eYcXazXxygnqq94k5T7xKwWaeoz0mUoe5d3ZO9HSXYzFhJ5ryfzUYw9TRXpd2zK5IlgQnCxATF6sH3Q~9LXJkT~km7NpBTmCUoPkmyZ~XaWeRritaRP~jM35W1s09mifFmNHrA4mQv1ctVwyxJI3wAEQrKO1-9ArRK5MccR8qKEoKoQUxPXO9AQ85brA18nVYqc-Lz6IVvAl-r1YGXubyRsS5FqKGabCkQ04xjsf9krkuqG3qUCciOxGae4llDaPVb2hkmVFZL9e0sZUNcTEqn0~Md7xjH~elbCeU7LGsNey~LJBMRQddTa4yay9XIXDLbtQ__",
+      "githubLink": "https://github.com/lakshayMahajan/Admin-App",
+      "hashtags": ["#Next.js", "#AdminTools", "#SchoolManagement"]
+  },
+  {
+      "title": "Roary's Shelter",
+      "content": "A website for Roary's Shelter to fight food insecurity at HSE High School by ensuring anonymous access to essential resources. Developed with React and integrated mapping functionality.",
+      "imageUrl": "https://readthereporter.com/wp-content/uploads/2021/04/Hoosier-Road-first-graders-Roarys-Closet-777x437.jpg",
+      "githubLink": "https://github.com/lakshayMahajan/shelter-frontend",
+      "hashtags": ["#React", "#FoodSecurity", "#Community"]
+  },
+  {
+    "title": "HSE Clubs",
+    "content": "A centralized platform for HSE High School clubs, making it easier for students to explore, join, and manage clubs. Hosted on Vercel, built with JavaScript, and integrated with Google Cloud.",
+    "imageUrl": "https://www.hseapps.org/static/media/clubs.46fdb8c3.png",
+    "githubLink": "https://github.com/lakshayMahajan/club-client",
+    "hashtags": ["#JavaScript", "#SchoolClubs", "#Community"]
+  },
+  {
+    "title": "March Madness ML",
+    "content": "A machine learning model designed to predict NCAA March Madness brackets with a 63% accuracy rate. Utilizes detailed season and tournament data for training and evaluation.",
+    "imageUrl": "https://www.ncaa.org/images/2021/9/29/March_Madness.jpg",
+    "githubLink": "https://github.com/lakshayMahajan/March-Madness-ML",
+    "hashtags": ["#MachineLearning", "#MarchMadness", "#SportsAnalytics"]
+  }
+]
